@@ -1,6 +1,6 @@
 
 selenium
 pytest
-wedriver-manager
+webdriver-manager
 openpyxl
 pytest-html

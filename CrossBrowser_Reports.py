@@ -109,6 +109,7 @@ git config --list # To verify all details entered in git
 #every commit will have unique ID
 
 #sign up GitHub:
+#create repository and copy the path/URL
 #then come to pycharm:
 # git remote add origin https://github.com/pavan143200/GitDemo.git
 # git branch -M main
@@ -144,3 +145,10 @@ git config --list # To verify all details entered in git
 
 #To find python path: goto cmd enter:
 '''where python'''
+
+#push framework to github
+#make pages edit login_page, test_login remove from demotricentis.pages
+
+#open jenkins--click new item-- give name--select pipeline--ok
+#  select pipeline copy url from github(goto project code) and paste it
+
