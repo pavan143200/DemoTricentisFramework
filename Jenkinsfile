@@ -7,8 +7,8 @@ pipeline {
         stage('Install Dependencies') {
             steps {
                 bat '''
-                "C:\\Users\\pavan\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe" -m pip install -r requirements.txt
-                "C:\\Users\\pavan\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe" -m pip install pytest pytest-html
+                "C:\Users\pavan\AppData\Local\Microsoft\WindowsApps\python.exe" -m pip install -r requirements.txt
+                "C:\Users\pavan\AppData\Local\Microsoft\WindowsApps\python.exe" -m pip install pytest pytest-html
                 '''
             }
         }
@@ -17,7 +17,7 @@ pipeline {
             steps {
                 bat '''
                 if not exist reports mkdir reports
-                "C:\\Users\\pavan\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe" -m pytest tests --html=reports/report.html --self-contained-html
+                "C:\Users\pavan\AppData\Local\Microsoft\WindowsApps\python.exe" -m pytest tests --html=reports/report.html --self-contained-html
                 '''
             }
         }
