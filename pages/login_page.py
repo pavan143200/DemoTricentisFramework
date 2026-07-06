@@ -1,4 +1,4 @@
-from pages.base_page import BasePage
+from Demo_Tricentis_Framework.pages.base_page import BasePage
 
 class LoginPage(BasePage):
     login_link = ("xpath","//a[text()='Log in']")

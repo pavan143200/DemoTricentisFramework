@@ -1,6 +1,6 @@
 import pytest
 
-from pages.login_page import LoginPage
+from Demo_Tricentis_Framework.pages.login_page import LoginPage
 
 @pytest.mark.smoke
 def test_valid_login_page(setup_and_teardown):
