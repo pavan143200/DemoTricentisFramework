@@ -7,8 +7,8 @@ pipeline {
         stage('Install Dependencies') {
             steps {
                 bat '''
-                "C:\Program Files\Python314\python.exe"
-                "C:\Program Files\Python314\python.exe"
+                "C:\\Program Files\\Python314\\python.exe"
+                "C:\\Program Files\\Python314\\python.exe"
                 '''
             }
         }
@@ -17,7 +17,7 @@ pipeline {
             steps {
                 bat '''
                 if not exist reports mkdir reports
-                "C:\Program Files\Python314\python.exe"
+                "C:\\Program Files\\Python314\\python.exe"
                 '''
             }
         }
